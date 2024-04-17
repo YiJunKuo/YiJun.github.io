@@ -7,12 +7,6 @@
   font-weight: 100;
   font-style: normal;
 } */
-.en {
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-}
 
  /* <uniquifier>: Use a unique and descriptive class name */
  /* <weight>: Use a value from 100 to 900 */
@@ -23,16 +17,34 @@
   font-weight: 100;
   font-style: normal;
 } */
-.zh {
-    font-family: "Noto Sans TC", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
+
+* {
+    box-sizing: border-box;
+    border: solid ;
+    border-color: rgb(236, 156, 209);
+    
+}
+body{
+    display: inline-block;
+}
+.navbar-brand {
+    display: inline-block;
+    box-sizing: border-box;
+}
+div{
+    display: inline-block;
+    
+    border-color: rgb(176, 224, 230);
+}
+pre{
+
+    border-color: rgb(156, 236, 156);
 }
 
-html {
+
+.t1{ 
+    font-family: "Roboto Mono", monospace;
+}
+.t2{
     font-family: "Noto Sans TC", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-  }
+}
