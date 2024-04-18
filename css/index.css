@@ -18,13 +18,13 @@
   font-style: normal;
 } */
 
-* {
+/** {
     box-sizing: border-box;
     border: solid ;
     border-color: rgb(236, 156, 209);
     
 }
-body{
+ body{
     display: inline-block;
 }
 .navbar-brand {
@@ -36,8 +36,8 @@ div{
     
     border-color: rgb(176, 224, 230);
 }
-pre{
-
+pre a {
+    text-decoration: none;
     border-color: rgb(156, 236, 156);
 }
 
@@ -47,4 +47,4 @@ pre{
 }
 .t2{
     font-family: "Noto Sans TC", sans-serif;
-}
+} */
