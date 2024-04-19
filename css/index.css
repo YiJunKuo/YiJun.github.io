@@ -49,12 +49,30 @@ pre a {
     font-family: "Noto Sans TC", sans-serif;
 } */
 
+html{
+    margin: 0;
+    padding: 0;
+}
+
 h1.logo{
-    color: whitesmoke;
-    background-image: url(/images/logo.jpg);
+    color: darkblue;
+    background-image: url(/intern/images/logo.svg);
     background-repeat: no-repeat;
-    background-size: 45%;
+    background-size: 56%;
     background-position: left;
     width: 150px;
     text-indent: -9999px;
 }
+#navbarSupportedContent {
+    border:solid;
+  /*   display:flex; */
+    justify-content: flex-end;
+  }
+.title{
+    
+    display:grid;
+    justify-content: center;
+    text-align: center;
+}
+
+
