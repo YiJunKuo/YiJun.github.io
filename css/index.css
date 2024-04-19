@@ -48,3 +48,13 @@ pre a {
 .t2{
     font-family: "Noto Sans TC", sans-serif;
 } */
+
+h1.logo{
+    color: whitesmoke;
+    background-image: url(/images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: left;
+    width: 150px;
+    text-indent: -9999px;
+}
